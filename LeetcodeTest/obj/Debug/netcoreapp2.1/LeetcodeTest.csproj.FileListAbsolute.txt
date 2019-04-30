@@ -1,0 +1,17 @@
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetcodeTest.deps.json
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetcodeTest.runtimeconfig.json
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetcodeTest.runtimeconfig.dev.json
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetcodeTest.dll
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetcodeTest.pdb
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetCode.dll
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\LeetCode.pdb
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.csprojAssemblyReference.cache
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.csproj.CoreCompileInputs.cache
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.AssemblyInfoInputs.cache
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.AssemblyInfo.cs
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.csproj.CopyComplete
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.dll
+D:\Project\Leetcode\LeetcodeTest\obj\Debug\netcoreapp2.1\LeetcodeTest.pdb
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Project\Leetcode\LeetcodeTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
