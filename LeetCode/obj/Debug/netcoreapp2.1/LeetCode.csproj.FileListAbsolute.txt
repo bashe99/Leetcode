@@ -8,4 +8,3 @@ D:\Project\Leetcode\LeetCode\obj\Debug\netcoreapp2.1\LeetCode.AssemblyInfoInputs
 D:\Project\Leetcode\LeetCode\obj\Debug\netcoreapp2.1\LeetCode.AssemblyInfo.cs
 D:\Project\Leetcode\LeetCode\obj\Debug\netcoreapp2.1\LeetCode.dll
 D:\Project\Leetcode\LeetCode\obj\Debug\netcoreapp2.1\LeetCode.pdb
-D:\Project\Leetcode\LeetCode\obj\Debug\netcoreapp2.1\LeetCode.csprojAssemblyReference.cache
