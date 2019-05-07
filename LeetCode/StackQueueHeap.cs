@@ -169,7 +169,7 @@ namespace LeetCode
         {
             int value = numList[startIndex];
             int location = startIndex;
-            var temp = 0; ;
+            var temp = 0;
             for (int i = startIndex; i <= endIndex; i++)
             {
                 if (numList[i] > value)
