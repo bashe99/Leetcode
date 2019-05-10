@@ -82,7 +82,7 @@ namespace LeetCode
 
         public static int MaxSubArray2(int[] nums)
         {
-            var result = new int[nums.Length];
+            var result = new int[nums.Length]; // result[i]代表以nums[i]结尾的结果
             var max = nums[0];
             result[0] = nums[0];
             for (int i = 1; i < nums.Length; i++)
@@ -192,7 +192,7 @@ namespace LeetCode
         /// </summary>
         public static int LengthOfLIS(int[] nums)
         {
-            var result = new int[nums.Length];
+            var result = new int[nums.Length]; // result[i]代表以nums[i]结尾的结果
             result[0] = 1;
             int maxResult = 1;
 
