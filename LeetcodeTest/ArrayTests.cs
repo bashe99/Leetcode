@@ -72,5 +72,33 @@ namespace LeetcodeTest
             result = ArrayUtil.SeperateArray(test);
             Assert.AreEqual(5, result);
         }
+
+        [TestMethod]
+        public void TestSeperateArray2()
+        {
+            int[] test = new int[] { 1 };
+            var result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(0, result);
+
+            test = new int[] { };
+            result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(-1, result);
+
+            test = new int[] { 1, 2, 5, 8, 0 };
+            result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(3, result);
+
+            test = new int[] { 3, 5, 8, 1 };
+            result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(2, result);
+
+            test = new int[] { 0, 8, 0, 8 };
+            result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(2, result);
+
+            test = new int[] { 0, 0, 0, 0 };
+            result = ArrayUtil.SeperateArray2(test);
+            Assert.AreEqual(0, result);
+        }
     }
 }

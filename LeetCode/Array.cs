@@ -83,7 +83,7 @@ namespace LeetCode
 
             var lastMax = containerSet[0].minValue;
             var result = 0;
-            for(var i=0; i< nums.Length +1; i++)
+            for (var i = 0; i < nums.Length + 1; i++)
             {
                 if (containerSet[i].isEmpty)
                 {
@@ -148,6 +148,37 @@ namespace LeetCode
             }
 
             return position;
+        }
+
+        /// <summary>
+        /// 把一个非负的数组从p位置隔开，使得a[0]+a[1]+...+a[p-1]与a[p]+a[p+1]+...+a[n-1]的差值最小，求p
+        /// </summary>
+        public static int SeperateArray2(int[] nums)
+        {
+            if (nums == null || nums.Length == 0)
+            {
+                return -1;
+            }
+
+            var start = 0;
+            var end = nums.Length;
+            var sumOfStart = 0;
+            var sumOfEnd = 0;
+            while (start < end)
+            {
+                if (sumOfStart < sumOfEnd)
+                {
+                    sumOfStart += nums[start];
+                    start++;
+                }
+                else
+                {
+                    sumOfEnd += nums[end - 1];
+                    end--;
+                }
+            }
+
+            return start;
         }
     }
 }
