@@ -168,7 +168,7 @@ namespace LeetCode
                     minResult = result[index][i];
                 }
             }
-
+            
             return minResult;
         }
 
