@@ -12,8 +12,8 @@ namespace LeetcodeTest.CodeWar
         [TestMethod]
         public void ShouldAddOverlappingIntervals()
         {
-            var input = new (int, int)[] { (1, 4), (7, 10), (3, 5) };
-            Assert.AreEqual(7, SumOfInterval.SumIntervals(input));
+            var input = new (int, int)[] { (1, 2), (2, 6), (6, 55) };
+            Assert.AreEqual(54, SumOfInterval.SumIntervals(input));
         }
     }
 }
