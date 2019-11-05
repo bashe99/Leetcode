@@ -7,6 +7,32 @@ namespace LeetCode
     public static class ArrayUtil
     {
         /// <summary>
+        /// 给定一个int数组和目标值，返回加和等于目标值的数组元素下标，假设数组中无重复，如有多组组合，返回其中一组即可
+        /// </summary>
+        /// <returns></returns>
+        public static int[] FindTwoSum(int[] nums, int target)
+        {
+            if (nums == null || nums.Length < 2)
+            {
+                return new int[] { -1, -1};
+            }
+
+            var tempMap = new Dictionary<int, int>();
+            for(int id = 0; id < nums.Length; id++)
+            {
+                if (tempMap.ContainsKey(target - nums[id]))
+                {
+                    return new int[] { tempMap[target - nums[id]], id };
+                } else
+                {
+                    tempMap.Add(nums[id], id);
+                }
+            }
+
+            return new int[] { -1, -1 };
+        }
+
+        /// <summary>
         /// 寻找数组的局部最小元素。给定一个数组，数组中的数字各不相同，返回一个局部最小值的位置，a[i]小于a[i-1] 并且 a[i]小于a[i+1]
         /// </summary>
         public static int FindPeakNumber(int[] nums)

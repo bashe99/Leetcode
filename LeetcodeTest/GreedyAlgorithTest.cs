@@ -67,6 +67,14 @@ namespace LeetcodeTest
             Assert.IsFalse(GreedyAlgorith.CanJump(nums));
         }
 
+        [TestMethod]
+        public void TestLongestSubstringWithoutRepeatingCharacters()
+        {
+            Assert.AreEqual(3, GreedyAlgorith.LongestSubstringWithoutRepeatingCharacters("abcabcbb"));
+            Assert.AreEqual(1, GreedyAlgorith.LongestSubstringWithoutRepeatingCharacters("bbbb"));
+            Assert.AreEqual(3, GreedyAlgorith.LongestSubstringWithoutRepeatingCharacters("pwwkew"));
+        }
+
         private static string PrintList(List<int> a)
         {
             var result = string.Empty;

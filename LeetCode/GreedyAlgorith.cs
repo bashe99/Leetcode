@@ -167,5 +167,39 @@ namespace LeetCode
             nums[left] = nums[right];
             nums[right] = temp;
         }
+
+        /// <summary>
+        /// 找出不包含重复字符的最长子串
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
+        public static int LongestSubstringWithoutRepeatingCharacters(string str)
+        {
+            if (string.IsNullOrWhiteSpace(str))
+            {
+                return 0;
+            }
+
+            var tempMap = new HashSet<char>();
+            var head = 0;
+            var tail = 0;
+            var result = 0;
+            while(tail < str.Length)
+            {
+                if (!tempMap.Contains(str[tail]))
+                {
+                    tempMap.Add(str[tail]);
+                    tail++;
+                    result = Math.Max(result, tempMap.Count);
+                }
+                else
+                {
+                    tempMap.Remove(str[head]);
+                    head++;
+                }
+            }
+
+            return result;
+        }
     }
 }

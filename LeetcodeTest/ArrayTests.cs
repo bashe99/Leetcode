@@ -10,6 +10,26 @@ namespace LeetcodeTest
     public class ArrayTests
     {
         [TestMethod]
+        public void FindTwoWum()
+        {
+            int[] test = new int[] { 8, 1, 9, 5, 6, 11 };
+            int target = 7;
+            var result = ArrayUtil.FindTwoSum(test, target);
+            Assert.AreEqual(1, result[0]);
+            Assert.AreEqual(4, result[1]);
+
+            target = 11;
+            result = ArrayUtil.FindTwoSum(test, target);
+            Assert.AreEqual(3, result[0]);
+            Assert.AreEqual(4, result[1]);
+
+            target = 100;
+            result = ArrayUtil.FindTwoSum(test, target);
+            Assert.AreEqual(-1, result[0]);
+            Assert.AreEqual(-1, result[1]);
+        }
+
+        [TestMethod]
         public void TestFindPeakNumber()
         {
             int[] test = new int[] { 2, 1, 3, 4, 5, 6, 11, 14, 8, 25 };
